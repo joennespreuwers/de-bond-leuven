@@ -1,0 +1,27 @@
+{
+  "name": "de-bond-leuven",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/css/styles.css",
+    "watch:css": "npx tailwindcss -i ./src/input.css -o ./dist/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joennespreuwers/de-bond-leuven.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss"
+  ],
+  "author": "Joenne Spreuwers",
+  "license": "CC BY-SA 4.0",
+  "bugs": {
+    "url": "https://github.com/joennespreuwers/de-bond-leuven/issues"
+  },
+  "homepage": "https://github.com/joennespreuwers/de-bond-leuven#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.2"
+  }
+}
